@@ -44,3 +44,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 ## devise auth
 gem 'devise'
 gem 'devise-jwt', '~> 0.6.0'
+gem 'dotenv-rails'
