@@ -6,6 +6,7 @@ class User < ApplicationRecord
   #  :validatable
   devise  :database_authenticatable,
           :registerable,
+          :confirmable,
           :jwt_authenticatable,
           jwt_revocation_strategy: Devise::JWT::RevocationStrategies::Null
           # devise-jwt strategies: JTIMatcher, Blacklist, Whitelist
